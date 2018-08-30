@@ -23,6 +23,7 @@ $ git clone https://github.com/luisfelipe7/Learning-Python3
 ```
 3. Go into the repository
 ```bash
+# Go into the repository
 $ cd Learning-Python3
 ```
 3. Run it.
