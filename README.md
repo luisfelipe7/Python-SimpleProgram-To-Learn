@@ -8,17 +8,31 @@
 <h4 align="center">Basic exercises for learn <a href="https://www.python.org/" target="_blank">Python3</a>.</h4>
 
 <p align="center">
-  •<a href="#how-to-use">Run it</a> •
-  <a href="#Installation">Installation</a> •
+  •<a href="#installation">Installation</a> •
+  <a href="#run-it">Run it</a> •
   <a href="#credits">Credits</a>
 </p>
 
 
-## Run it
-
-
 ## Installation
+1. Donwload Python 3 from https://www.python.org/downloads/.
+2. Download or clone this repository in your folder:
+```bash
+# Clone this repository
+$ git clone https://github.com/luisfelipe7/Learning-Python3
+```
+3. Go into the repository
+```bash
+$ cd Learning-Python3
+```
+3. Run it.
 
+## Run it
+1. Run the file basico1.py with Python3.
+```bash
+# Run in bash
+$ /usr/bin/python3 /home/basico1.py
+```
 
 ## Credits
 
