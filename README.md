@@ -22,7 +22,7 @@
 
 ## Credits
 
-The exercises was taken from the book : Learn Python the Hard Way,  and adapted to my perspective.
+Some exercises was taken from the book Learn Python the Hard Way,  and adapted to my perspective.
 
 - [Learn Python the Hard Way](https://learnpythonthehardway.org/)
 - [Python](https://www.python.org/)
