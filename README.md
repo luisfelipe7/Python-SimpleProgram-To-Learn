@@ -8,16 +8,16 @@
 <h4 align="center">Basic exercises for learn <a href="https://www.python.org/" target="_blank">Python3</a>.</h4>
 
 <p align="center">
-  •<a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
+  •<a href="#how-to-use">Run it</a> •
+  <a href="#Installation">Installation</a> •
   <a href="#credits">Credits</a>
 </p>
 
 
-## How To Use
+## Run it
 
 
-## Download
+## Installation
 
 
 ## Credits
