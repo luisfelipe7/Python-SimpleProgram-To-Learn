@@ -354,8 +354,8 @@ animals.append("monkey")
 
 # To declare a for-loop, you have to do this structure: for element in elements
 cont = 1
-for creature in animals:
-    print("{}. {} ".format(cont, creature))
+for index, creature in enumerate(animals):
+    print("{}. {} ".format(index, creature))
     cont += 1
 print()
 for number in numbers:
@@ -480,6 +480,16 @@ print()
 # Try -Except
 try:
     print(variable)
+except IOError:
+    print('An error occured trying to read the file.')   
+except ValueError:
+    print('Non-numeric data found in the file.')
+except ImportError:
+    print "NO module found"    
+except EOFError:
+    print('Why did you do an EOF on me?')
+except KeyboardInterrupt:
+    print('You cancelled the operation.')
 except NameError:
     print("Variable no declarada")
 except:

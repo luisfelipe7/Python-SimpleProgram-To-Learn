@@ -28,5 +28,6 @@ List Methods:
     Python reversed() 	returns reversed iterator of a sequence
     Python slice() 	creates a slice object specified by range()
     Python sorted() 	returns sorted list from a given iterable
+        sorted(self.list, key=lambda x: x.atributte, reverse=True/False)
     Python sum() 	Add items of an Iterable
     Python zip() 	Returns an Iterator of Tuples

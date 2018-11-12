@@ -2,6 +2,8 @@
 
 Python Built-in Functions:
 
+Python input("Press enter to continue") create a pause
+Python print("\033[H\033[J") clear the screen
 Python abs() 	returns absolute value of a number
 Python all() 	returns true when all elements in iterable is true
 Python any() 	Checks if any Element of an Iterable is True
@@ -11,7 +13,7 @@ Python bool() 	Converts a Value to Boolean
 Python bytearray() 	returns array of given byte size
 Python bytes() 	returns immutable bytes object
 Python callable() 	Checks if the Object is Callable
-Python chr() 	Returns a Character (a string) from an Integer
+Python chr() 	Returns a Character(a string) from an Integer
 Python classmethod() 	returns class method for given function
 Python compile() 	Returns a Python code object
 Python complex() 	Creates a Complex Number
@@ -53,7 +55,7 @@ Python ord() 	returns Unicode code point for Unicode character
 Python pow() 	returns x to the power of y
 Python print() 	Prints the Given Object
 Python property() 	returns a property attribute
-Python range() 	return sequence of integers between start and stop
+Python range() return sequence of integers between start and stop
 Python repr() 	returns printable representation of an object
 Python reversed() 	returns reversed iterator of a sequence
 Python round() 	rounds a floating point number to ndigits places.

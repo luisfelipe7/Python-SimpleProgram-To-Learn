@@ -1,3 +1,10 @@
+# Author: Luis Felipe Castro Sánchez
+# Creation Date: 12/11/18
+# GitHub User: luisfelipe7
+# Version: 1.0.0
+# Country: Costa Rica
+
+
 class Animal(object):
 
     def __init__(self, *args):
@@ -12,8 +19,3 @@ class Animal(object):
         datos = 'Nombre: '+self.nombre + ' Edad: ' + \
             str(self.edad) + ' Color: '+self.color
         return datos
-
-# animal1 = Animal('Mono', 2, 'Negro')
-# print("Datos del animal1", animal1.muestraDatos())
-# animal1.aumentaEdad()
-# print("Datos del animal1", animal1.muestraDatos())
