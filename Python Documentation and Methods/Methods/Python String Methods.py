@@ -49,6 +49,8 @@ Python String format_map() 	Formats the String Using Dictionary
 Python String Remove duplicates elements on a String
     import itertools
     ''.join(ch for ch, _ in itertools.groupby(String))
+Python String Reverse String
+    string[::-1]
 Python any() 	Checks if any Element of an Iterable is True
 Python all() 	returns true when all elements in iterable is true
 Python ascii() 	Returns String Containing Printable Representation
