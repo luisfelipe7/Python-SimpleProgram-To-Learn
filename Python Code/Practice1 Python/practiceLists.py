@@ -4,21 +4,25 @@
 # Version: 1.0.0
 # Country: Costa Rica
 
+
+# Execute Python : /usr/bin/python3
+# Execute File: /usr/bin/python3  pathOfTheFile
+
 # To sort in a custom way
 import functools
-# -----------------------
 from sys import argv
 import itertools
 
 
-# +++++++++++++++++++++++++ Working with List +++++++++++++++++++++++++
+# *********************** Working with List **************************
 
-# Variables
+
+# ** Variables **
 
 filterElement = ""
 
+# Method to get the potency
 
-# ************* Combinations Method ************************
 
 def potencia(c):
     """Calcula y devuelve el conjunto potencia del 
@@ -28,6 +32,8 @@ def potencia(c):
         return [[]]
     r = potencia(c[:-1])
     return r + [s + [c[-1]] for s in r]
+
+# Method to print in order way
 
 
 def imprime_ordenado(c):
@@ -43,6 +49,8 @@ def imprime_ordenado(c):
     for e in sorted(c, key=lambda s: (len(s), s)):
         print(e)
 
+# Method to get the combinations from a list
+
 
 def combinaciones(c, n):
     """Calcula y devuelve una lista con todas las
@@ -52,16 +60,16 @@ def combinaciones(c, n):
     """
     return [s for s in potencia(c) if len(s) == n]
 
-# ********************************************************
+# Method to insert on specific position
 
-
-# *********** Pemutations Method ************************
 
 def inserta(x, lst, i):
     """Devuelve una nueva lista resultado de insertar
        x dentro de lst en la posición i.
     """
     return lst[:i] + [x] + lst[i:]
+
+# Method to insert on multiple positions
 
 
 def inserta_multiple(x, lst):
@@ -70,6 +78,7 @@ def inserta_multiple(x, lst):
     """
     return [inserta(x, lst, i) for i in range(len(lst) + 1)]
 
+# Method to permute on a list
 
 def permuta(c):
     """Calcula y devuelve una lista con todas las
@@ -82,8 +91,6 @@ def permuta(c):
                 for s in permuta(c[1:])],
                [])
 
-
-# ********************************************************
 
 # Define a method to filter list 
 
@@ -153,7 +160,7 @@ for index, number in enumerate(myListOfNumbers):
 for number in myListOfNumbers:
     print("I am a element from myListOfNumbers : "+str(number))
 
-# Pop an element from the list of numbers
+# Pop an element from the list of numbers, pop the last element
 myListOfNumbers.pop()
 print("This is myListOfNumbers with a drop element : "+str(myListOfNumbers))
 print("Appending elements to the list to sorted")
@@ -199,6 +206,11 @@ print("Write the value you want to search on the names")
 filterElement = str(input())
 filteredListOfPeople = filter(filterByValue, myListOfPeople)
 print("MyListOfPeople with that match with the filterElement "+filterElement+" "+str(list(filteredListOfPeople)))
+
+
+# Printing an specific element from the list
+print("The first element from myListOfPeople is "+str(myListOfPeople[0]))
+
 
 # Obtain combinations
 # imprime_ordenado(combinaciones(myListOfNumbers, 3))

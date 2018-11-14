@@ -4,6 +4,9 @@
 # Version: 1.0.0
 # Country: Costa Rica
 
+# Execute Python : /usr/bin/python3
+# Execute File: /usr/bin/python3  pathOfTheFile
+
 
 from People.person import Person
 from People.employee import Employee
@@ -11,7 +14,7 @@ from Animals.animal import Animal
 from Group.family import Family
 
 
-# +++++++++++++++++++++++++ Working with classes +++++++++++++++++++++++++
+# *********************** Working with classes **************************
 
 # Creating a Person (Normal)
 person1 = Person("Luis Felipe", "Man", 21)
