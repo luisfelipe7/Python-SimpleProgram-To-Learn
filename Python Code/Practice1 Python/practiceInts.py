@@ -5,6 +5,7 @@
 # Country: Costa Rica
 
 from sys import argv
+from math import factorial
 
 # ++++++++++++ Defining functions to work with ints +++++++++++++++++++
 
@@ -115,6 +116,8 @@ print("The fact number with an iterative method of " +
       str(7)+" is : "+str(iterativeFactorialFunction(7)))
 print("The fact number with a recursive method of " +
       str(7)+" is : "+str(recursiveFactorialFunction(7)))
+print("The fact number with a specific method from the library math of " +
+      str(7)+" is : "+str(factorial(7)))
 print("Recursive Fibonnaci result of "+str(0) +
       " is : "+str(recursiveFibonacciFunction(0)))
 print("Recursive Fibonnaci result of "+str(7) +
