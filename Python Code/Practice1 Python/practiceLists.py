@@ -21,6 +21,13 @@ import itertools
 
 filterElement = ""
 
+
+# Function to sum 5 each element of the list
+
+def sumFive(x):
+    return x+5
+
+
 # Method to get the potency
 
 
@@ -79,6 +86,7 @@ def inserta_multiple(x, lst):
     return [inserta(x, lst, i) for i in range(len(lst) + 1)]
 
 # Method to permute on a list
+
 
 def permuta(c):
     """Calcula y devuelve una lista con todas las
@@ -211,6 +219,14 @@ print("MyListOfPeople with that match with the filterElement "+filterElement+" "
 # Printing an specific element from the list
 print("The first element from myListOfPeople is "+str(myListOfPeople[0]))
 
+# Apply Map on a List
+myListOfNumbers3 = [1, 2, 3, 4, 5]
+result = list(map(sumFive, myListOfNumbers3))
+print("MyListOfNumbers3 with five more on each element "+str(result))
+
+# Lambda function 
+square = lambda x: x**2
+print(" Square of 3 is "+str(square(3)))
 
 # Obtain combinations
 # imprime_ordenado(combinaciones(myListOfNumbers, 3))
