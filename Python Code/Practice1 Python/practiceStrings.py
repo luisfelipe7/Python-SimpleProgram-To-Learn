@@ -73,6 +73,11 @@ if(list(reversedString1) == list(string1)):
 if(list(reversedString2) == list(string2)):
     print("String2 is a palindrome")
 
+myString1 = [1, 2, 3]
+myDict = {"myString1 ": []}
+myDict.update(myString1=myString1)
+print("My String "+str(globals()['myString1']))
+# or locals()
 
 # ***************** This is WRONG **************************
 # print("String first element "+string1[0])
