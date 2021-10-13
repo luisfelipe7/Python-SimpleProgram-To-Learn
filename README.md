@@ -19,12 +19,12 @@
 2. Download or clone this repository in your folder:
 ```bash
 # Clone this repository
-$ git clone https://github.com/luisfelipe7/Learning-Python3
+$ git clone https://github.com/luisfelipe7/Python-SimpleProgram-To-Learn
 ```
 3. Go into the repository
 ```bash
 # Go into the repository
-$ cd Learning-Python3
+$ cd Python-SimpleProgram-To-Learn
 ```
 3. Run it.
 
